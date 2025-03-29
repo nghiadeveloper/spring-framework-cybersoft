@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3307/uniclub
+    username: root
+    password: 2202
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+jwt:
+  secret: m5Uf2zPS6t8TRLVQ4FB3I/Ut2Wtzd9V7oSKKnf7+WN0=
+
+file:
+  upload: C:\Users\2202\OneDrive\Pictures\upload
